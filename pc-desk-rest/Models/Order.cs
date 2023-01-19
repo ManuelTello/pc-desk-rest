@@ -7,7 +7,6 @@ namespace pc_desk_rest.Models
         [Key]
         public int OrderId { get; set; }
 
-        [Required]
         public User? User { get; set; }
 
         [Required]
